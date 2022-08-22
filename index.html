@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Four Way Traffic Light</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width initial-scale=0">
+        <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Hammersmith+One&family=Roboto+Flex:opsz,wght@8..144,500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Quantico&display=swap" rel="stylesheet">
+        <link href="index.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="title">
+            <h2>Four way traffic light</h2>
+            <p>by apsam tech</p>
+        </div>
+        <div class="traffic-light-container">
+            <div>
+                <img src="img/house4.jpeg">
+            </div>
+            <div class="north">
+                <div class="">
+                    <div class="signage">N</div><br>
+                    <div class="vertical-line">|<br><br>|<br><br>|</div>
+                </div>
+            </div>
+            <div>
+                <img src="img/house5.jpeg">
+            </div>
+            <div class="west">
+                <div class="road">
+                    <div class="signage">W</div>
+                    <div class="horizontal-line">__  __  __</div>
+                </div>
+                
+            </div>
+            <div class="mid-point">
+                <div class="north-light">
+                    <div class="vertical-light">
+                        <div id="north-green" class="box green"></div>
+                        <div id="north-yellow" class="box yellow"></div>
+                        <div id="north-red" class="box red"></div>
+                    </div>
+                </div>
+                <div class="square">
+                    <div class="mid-square"></div>
+                </div>
+                <div class="west-light">
+                    <div class="horizontal-light">
+                        <div id="west-red" class="box red"></div>
+                        <div id="west-yellow" class="box yellow"></div>
+                        <div id="west-green" class="box green"></div>
+                    </div>
+                </div>
+                <div class="east-light">
+                    <div class="horizontal-light">
+                        <div id="east-green" class="box green"></div>
+                        <div id="east-yellow" class="box yellow"></div>
+                        <div id="east-red" class="box red"></div>
+                    </div>
+                </div>
+                <div class="south-light">
+                    <div class="vertical-light">
+                        <div id="south-red" class="box red"></div>
+                        <div id="south-yellow" class="box yellow"></div>
+                        <div id="south-green" class="box green"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="east">
+                    <div class="road">
+                        <div class="horizontal-line">__  __  __</div>
+                        <div class="signage">E</div>
+                    </div>
+                </div>
+            <div>
+                <img src="img/house5.jpeg">
+            </div>
+            <div class="south">
+                <div class="">
+                    <br><div class="vertical-line">|<br><br>|<br><br>|</div><br>
+                    <div class="signage">S</div>
+                </div>
+            </div>
+            <div>
+                <img src="img/house4.jpeg">
+            </div>
+        </div>
+        <div class="button-container">
+            <button id="activate-btn">ACTIVATE</button>
+        </div>
+        <div class="footer">
+            <div class="guide-container">
+                <div class="color">
+                    <div class="boxx red"></div>
+                    <div class="boxx yellow"></div>
+                    <div class="boxx green"></div>
+                </div>
+                <div class="word">
+                    <div class="meaning">STOP</div>
+                    <div class="meaning">READY</div>
+                    <div class="meaning">GO</div>
+                </div>
+            </div>
+            <div class="info-container">
+                <h5>FOR MORE CODE TIPS</h5>
+                <p>Follow <span>@Samdek</span> on github!.</p>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
